@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-    <remote name="me" fetch="https://github.com" />
-
-    <default remote="me" />
+    <remote name="github" alias="me" fetch="https://github.com" />
+	<remote name="gitlab" alias="me" fetch="https://gitlab.com" />
 
     <include name="plugins.xml" />
 </manifest>
